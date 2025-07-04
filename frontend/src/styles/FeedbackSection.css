@@ -1,0 +1,92 @@
+/* 
+
+
+    @media (max-width: 639px) {
+      .feedback-item {
+        flex-direction: column;
+      
+      }
+      .feedback-profile {
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+      }
+      .feedback-content {
+        order: 2;
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+      .feedback-date {
+        order: 3;
+        text-align: left;
+        width: 100%;
+      }
+      #content{
+        justify-content: center;
+        align-items: center;
+      }
+    }
+   */
+/* FeedbackSection.css */
+@media (max-width: 639px) {
+    .feedback-item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .feedback-profile {
+      flex-direction: row;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 0.5rem;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .feedback-content {
+      order: 2;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    .feedback-date {
+      order: 3;
+      text-align: left;
+      width: 100%;
+    }
+    #date{
+        display: flex;
+        /* align-items: ; */
+        justify-content: center;
+    }
+  }
+  
+  /* Desktop styles */
+  .feedback-item {
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    gap: 3rem;
+  }
+  
+  .feedback-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+    width: 100px;
+    max-width: 160px;
+  }
+  
+  .feedback-content {
+    display: flex;
+    flex-direction: column;
+    width: 66.666667%;
+  }
+  
+  .feedback-date {
+    text-align: right;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    align-self: flex-start;
+  }

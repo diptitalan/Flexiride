@@ -1,0 +1,14 @@
+{
+  "name": "register-service-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type" : "commonjs",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "mongoose": "^8.13.2"
+  }
+}
